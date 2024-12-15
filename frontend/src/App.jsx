@@ -1,9 +1,8 @@
-import { useState } from 'react'
-
+import GameBoard from './pages/GameBoard'
 
 function App() {
   return (
-    <div className='text-3xl'>hii from react</div>
+    <GameBoard />
   )
 }
 
